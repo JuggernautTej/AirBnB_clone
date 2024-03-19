@@ -4,6 +4,9 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 button {
@@ -14,9 +17,13 @@ button {
     width: 20%;
     border: none;
     border-radius: 4px;
-    margin-right: 30px;
-    margin-top: calc((48px - 18px) / 2);
+    margin: auto 30px;
     opacity: 1;
     transition: opacity 0.3s;
+    float: right;
 }
+
+button:hover {
+    opacity: 0.9;
+} 
 
