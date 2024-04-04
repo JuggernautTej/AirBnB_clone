@@ -1,6 +1,11 @@
 .places {
     float: left;
     font: 30px;
+    text-align: center;
+}
+
+.places h1 {
+    text-align: start;
 }
 
 article {
@@ -11,4 +16,5 @@ article {
     border-radius: 4px;
     font: 30px;
     text-align: center;
+    display: inline-block;
 }
